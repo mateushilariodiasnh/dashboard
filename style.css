@@ -159,10 +159,57 @@ main {
     border-radius: 4px;
 }
 
+.blockTwoHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    padding: 12px 27px 22px;
+}
+
 .titleContent {
     border-bottom: 2px solid #004EDA;
-    background: #FFF; 
+    background: #FFF;
     padding: 6px 16px;
+    color: #004EDA;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.blockTwoNav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 0 0;
+}
+
+.blockTwoNavSvg {
+    padding-left: 16px;
+}
+
+.linesContent {
+    position: relative;
+}
+
+.linesContent svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#cartesianPlane {
+    z-index: 1;
+}
+
+#blockTwoLineToday {
+    z-index: 3;
+}
+
+#blockTwoLineTomorrow {
+    z-index: 2;
 }
 
 .subTitle {
@@ -183,5 +230,5 @@ main {
     width: 12px;
     height: 12px;
     flex-shrink: 0;
-    border-radius: 50%;;  
+    border-radius: 50%;
 }
